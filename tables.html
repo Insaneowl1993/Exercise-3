@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .right{
+            text-align: right;
+            background-color:brown;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <colgroup>
+            <col span="2">
+            <col class="right">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>role</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th>Occupation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>comic relief</td>
+                <td>Jerry Smith</td>
+                <td>105</td>
+                <td>Coffin Dodger</td>
+            </tr>
+            <tr>
+                <td>secondary character</td>
+                <td colspan="2">Ron Swanson</td>
+                <td rowspan="2">Department Head</td>
+            </tr>
+            <tr>
+                <td>main character</td>
+                <td colspan="2">Andy Dwyer</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
